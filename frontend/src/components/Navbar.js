@@ -5,7 +5,6 @@ import {
   NavbarText,
   PageLinks,
   SocialLinks,
-  YellowHighlight,
   NavbarButton,
   SocialImage
   } from '../lib/styled/styled'
@@ -19,10 +18,10 @@ export const Navbar = () => {
       <NavbarText>
         <p><b>I'm Karan Mann.</b></p>
         <p>A 
-          <YellowHighlight>
+          <span className='yellow-color'>
             frontend developer
-          </YellowHighlight>  
-          with a background as a Chef</p>
+          </span>  
+          with a background in Kitchen.</p>
       </NavbarText>
       <LinkContainer>
         <PageLinks>
