@@ -1,0 +1,140 @@
+@use 'theme';
+
+.hero-container {
+  background-color: theme.$header-background;
+  width: 100%;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../images/GreenBanner.png);
+  color: theme.$almond;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+
+  .left-container {
+
+    .hero-text-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-weight: 200;
+        span {
+          color: white;
+          font-weight: 800;
+        }
+      }
+
+      h2 {
+        font-size: 40px;
+        letter-spacing: 1px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+      
+    }
+  }
+
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon-container {
+      display:flex;
+      width: 300px;
+      justify-content: space-evenly;
+      flex-direction: row;
+      position: absolute;
+      transform: translate(0%,-420%);
+
+      a {
+        height: 80px;
+        width: 80px;
+        border: 2px solid white;
+        border-radius: 50%;
+      }
+         
+      img {
+        height: 40px;
+        width:40px;
+        padding: 20px;
+      }
+    }
+
+    .profile-pic {
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      border: 2px solid white;
+      position: absolute;
+      transform: translate(-50%, 10%)
+    }
+  }
+}
+
+@media (min-width: 720px){
+
+}
+
+@media (min-width: 1280px){
+  .hero-container {
+  flex-direction: row;
+  justify-content: space-between;
+
+  .left-container {
+
+    .hero-text-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transform: translate(30%, 20%);
+
+      h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+        font-weight: 200;
+        span {
+          color: white;
+          font-weight: 800;
+        }
+      }
+
+      h2 {
+        font-size: 70px;
+        letter-spacing: 1px;
+      }
+
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .right-container {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+
+    .icon-container {
+      width: 350px;
+      transform: translate(-80%, 120%)
+    }
+
+    .profile-pic {
+      height: 300px;
+      width: 300px;
+      border-radius: 50%;
+      border: 2px solid white;
+      transform: translate(-140%, 80%)
+    }
+  }
+}
+  }
