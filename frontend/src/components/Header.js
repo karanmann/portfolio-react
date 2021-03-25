@@ -15,7 +15,7 @@ export const Header = () => {
     <header>
     <div className='hero-container'>
       <div className='left-container'>
-        <div className='hero-text-container' tabindex='0'>
+        <div className='hero-text-container' tabIndex='0'>
         <h1>
           PORTFOLIO: 
           <span>KARAN MANN</span> 
@@ -30,7 +30,7 @@ export const Header = () => {
         <div className='icon-container'>
           <a 
             href={linkedInLink}
-            tabindex='0'
+            tabIndex='0'
           >
             <img 
               src={linkedInIcon}
@@ -41,7 +41,7 @@ export const Header = () => {
           </a>
           <a 
             href={githubLink}
-            tabindex='0'
+            tabIndex='0'
           >
             <img 
               src={githubIcon}
@@ -52,7 +52,7 @@ export const Header = () => {
           </a>
           <a 
             href={stackOverflowLink}
-            tabindex='0' 
+            tabIndex='0' 
           >
             <img 
               src={stackoverflowIcon}
@@ -63,7 +63,7 @@ export const Header = () => {
           </a>
         </div>
         <div className='image-container'>
-          <img class="profile-pic" 
+          <img className="profile-pic" 
               src={profilePic} 
               alt="Karan's Pic"/>
         </div>   

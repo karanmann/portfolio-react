@@ -1,0 +1,87 @@
+ @use 'theme';
+
+.skills-container {
+  background-color: theme.$background-light-green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+
+  .skills-title{ 
+    background-color: theme.$title-background;
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+
+  .content-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    .code {
+      padding: 0 30px;
+      .code-title {
+        color: tomato;
+        text-align: center;
+        font-weight: 800;
+        font-size: 25px;
+      }
+      .code-content {
+        text-align: center;
+      }
+    }
+
+    .toolbox {
+      padding: 0 30px;
+      .toolbox-title {
+        color: tomato;
+        text-align: center;
+        font-weight: 800;
+        font-size: 25px;
+      }
+
+      .toolbox-content {
+        text-align: center;
+      }
+    }
+
+    .others {
+      padding: 0 30px;
+      .others-title {
+        color: tomato;
+        text-align: center;
+        font-weight: 800;
+        font-size: 25px;
+      }
+
+      .others-content {
+        text-align: center;
+      }
+     
+    }
+
+    .upcomming{
+      padding: 0 30px;
+      .upcomming-title {
+        color: tomato;
+        text-align: center;
+        font-weight: 800;
+        font-size: 25px;
+      }
+
+      .upcomming-content {
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 1280px){
+  .skills-container {
+    .content-container {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 @use 'theme';
 
 .hero-container {
-  background-color: theme.$header-background;
+  background-color: theme.$background-green;
   width: 100%;
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../images/GreenBanner.png);
   color: theme.$almond;
@@ -59,6 +59,10 @@
         width: 80px;
         border: 2px solid white;
         border-radius: 50%;
+      }
+
+      a:hover {
+        border: 2px solid tomato
       }
          
       img {
