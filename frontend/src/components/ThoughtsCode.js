@@ -1,17 +1,18 @@
 import React from 'react'
 
+import '../lib/styles/thoughtsCode.scss'
 import chefDroid from '../lib/images/ChefDroid.png'
 
 const chefToProgrammerLink = "https://www.linkedin.com/posts/karanmann84_programming-learning-technigo-activity-6720014274095304704-BHnK"
 
 export const ThoughtsCode = () => {
   return (
-    <section>
-      <h2  className='title' tabindex="0">MY THOUGHTS ABOUT CODE</h2>
-      <div>
+    <div className='thougths-container'>
+      <h2  className='thoughts-title' tabIndex="0">MY THOUGHTS ABOUT CODE</h2>
+      <div className='thougths-content-container'>
         <div className='thoughts-code-image-container'>
           <a href={chefToProgrammerLink}>
-            <img src={chefDroid} alt='Chef and Droid'/>
+            <img className='thoughts-image' src={chefDroid} alt='Chef and Droid'/>
           </a>
         </div>
         <div className='thoughts-code-text-container'>
@@ -24,10 +25,10 @@ export const ThoughtsCode = () => {
             This could be the salad section or pantry. In an industry as intensely competitive as restaurants, 
             the only way to move up is by working as hard as you can. This means being willing to take on any assignment 
             your chef gives you. It means constantly working to master your craft. 
-            <a href={chefToProgrammerLink}>Read More ≥≥</a>
+            <a className='thoughts-read-more'href={chefToProgrammerLink}>Read More ≥≥</a>
           </p>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

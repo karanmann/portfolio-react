@@ -1,0 +1,51 @@
+@use 'theme';
+
+.thougths-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  .thoughts-title {
+    background-color: theme.$title-background;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .thougths-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .thoughts-code-image-container{
+      
+      .thoughts-image {
+        padding-top: 40px;
+        width: 500px;
+      }
+    }
+    .thoughts-code-text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 0 50px;
+
+      .thoughts-code-text-title{
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      .thoughts-code-text-content{
+        font-size: 20px;
+      }
+
+      .thoughts-read-more {
+        padding-left: 10px;
+        color: tomato;
+      }
+    }
+  }
+}
