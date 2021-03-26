@@ -2,7 +2,6 @@ import React from 'react';
 
 import '../lib/styles/tech.scss'
 
-
 const techs = [
   { tech:"HTML", highLight:false },
   { tech:"CSS", highLight:false },

@@ -16,22 +16,19 @@ export const Header = () => {
     <div className='hero-container'>
       <div className='left-container'>
         <div className='hero-text-container' tabIndex='0'>
-        <h1>
-          PORTFOLIO: 
-          <span>KARAN MANN</span> 
-        </h1>
-        <h2>frontend developer</h2>
-        <h3>+ chef</h3>
-      </div>
+          <h1>
+            PORTFOLIO: 
+            <span>KARAN MANN</span> 
+          </h1>
+          <h2>frontend developer</h2>
+          <h3>+ chef</h3>
+        </div>
 
       </div>
       
       <div className='right-container'>
         <div className='icon-container'>
-          <a 
-            href={linkedInLink}
-            tabIndex='0'
-          >
+          <a href={linkedInLink} tabIndex='0'>
             <img 
               src={linkedInIcon}
               alt='Icon to LinkedIN' 
@@ -39,10 +36,7 @@ export const Header = () => {
               rel='noreferrer' 
             />
           </a>
-          <a 
-            href={githubLink}
-            tabIndex='0'
-          >
+          <a href={githubLink} tabIndex='0'>
             <img 
               src={githubIcon}
               alt='Icon to Github'
@@ -50,10 +44,7 @@ export const Header = () => {
               rel='noreferrer'
             />
           </a>
-          <a 
-            href={stackOverflowLink}
-            tabIndex='0' 
-          >
+          <a href={stackOverflowLink} tabIndex='0'>
             <img 
               src={stackoverflowIcon}
               alt='Icon to Stackoverflow'
@@ -63,9 +54,7 @@ export const Header = () => {
           </a>
         </div>
         <div className='image-container'>
-          <img className="profile-pic" 
-              src={profilePic} 
-              alt="Karan's Pic"/>
+          <img className="profile-pic" src={profilePic} alt="Karan's Pic"/>
         </div>   
       </div>
     </div>

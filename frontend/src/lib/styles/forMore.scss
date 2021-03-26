@@ -1,0 +1,62 @@
+@use 'theme';
+
+.formore-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  .formore-title {
+    background-color: theme.$title-background;
+    padding: 10px 20px;
+    font-size: 30px;
+  }
+
+  .formore-icons {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+
+    .formore-icon-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0px;
+  
+
+      a {
+        height: 70px;
+        width: 70px;
+        border: 2px solid theme.$title-background;
+        border-radius: 50%;
+      }
+
+      a:hover {
+        height: 70px;
+        width: 70px;
+        border: 2px solid theme.$image-background;
+        border-radius: 50%;
+        transition: .2s ease-out;
+      }
+
+      .formore-image-github,
+      .formore-image-stackoverflow,
+      .formore-image-linkedin {
+        height: 40px;
+        width: 40px;
+        margin: 15px;
+      }
+
+      .formore-text-linkedin,
+      .formore-text-stackoverflow,
+      .formore-text-github {
+        color: theme.$title-background;
+        font-size: 20px;
+        font-weight: 800;
+      }
+  
+    }
+  }
+  
+}

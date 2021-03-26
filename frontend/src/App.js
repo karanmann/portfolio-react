@@ -4,10 +4,10 @@ import { Header } from './components/Header'
 import { Intro } from './components/Intro'
 import { Tech } from './components/Tech'
 // import { FeaturedProjects } from './components/FeaturedProjects'
-// import { ThoughtsCode } from './components/ThoughtsCode'
+import { ThoughtsCode } from './components/ThoughtsCode'
 import { Skills } from './components/Skills'
-// import { ForMore } from './components/ForMore'
-// import { Footer } from './components/Footer'
+import { ForMore } from './components/ForMore'
+import { Footer } from './components/Footer'
 
 function App() {
   return (
@@ -16,10 +16,10 @@ function App() {
       <Intro/>
       <Tech />
       {/* <FeaturedProjects /> */}
-      {/* <ThoughtsCode />' */}
+      <ThoughtsCode />'
       <Skills />
-      {/* <ForMore /> */}
-      {/* <Footer /> */}
+      <ForMore />
+      <Footer />
     </div>
   );
 }

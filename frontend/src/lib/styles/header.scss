@@ -3,7 +3,7 @@
 .hero-container {
   background-color: theme.$background-green;
   width: 100%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(../images/GreenBanner.png);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(../images/GreenBanner.png);
   color: theme.$almond;
   background-size: cover;
   display: flex;
