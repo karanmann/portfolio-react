@@ -3,14 +3,14 @@ import React from 'react';
 import { Header } from './components/Header'
 import { Intro } from './components/Intro'
 import { Tech } from './components/Tech'
-import { Projects } from './components/Projects'
+import { Projects } from './components/projects/Projects'
 import { ThoughtsCode } from './components/ThoughtsCode'
 import { Skills } from './components/Skills'
 import { ForMore } from './components/ForMore'
 import { Footer } from './components/Footer'
-import data from './projects.json'
+import { Data } from './projects'
 
-const projectData = data.projects
+const projectData = Data.projects
 
 console.log(projectData)
 

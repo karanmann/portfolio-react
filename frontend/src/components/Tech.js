@@ -24,12 +24,11 @@ const techs = [
 export const Tech = () => {
   return (
     <div className='tech-container' >
-      <p className='tech-title-container'>TECH</p>
+      <p className='tech-title'>TECH</p>
       <div className='all-tech-container'>
         <div className='all-tech'>
             {techs.map((mytech, index) =>{
               const conditionalStyle = mytech.highLight ? {color:'tomato', fontWeight: '800'} : {color:'black'}
-              console.log(mytech.length)
               return (
               <p className='tech' style={conditionalStyle} key={mytech.tech}>
                 {mytech.tech}

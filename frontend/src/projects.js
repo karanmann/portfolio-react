@@ -1,9 +1,10 @@
+export const Data = 
 {
   "projects": [
     {
-      "title": "Pollic - Consesing",
-      "description": "The principle behind Systemic consensing is to find a solution that fits all participants. The proposal with the least objection is most easily accepted by all together and generates the least conflict potential. ",
-      "image_url": "./lib/images/projects/pollic.png",
+      "title": "Pollic",
+      "description": "Systemic consensing is to find a solution that fits all participants",
+      "image_url": "./projects/pollic.png",
       "live_url": "https://pollic.netlify.app/",
       "techs": [
         "React",
@@ -17,8 +18,8 @@
     },
     {
       "title": "Happy-Thoughts",
-      "description": "My first Fullstack Project. I here have made a Twitter Clone using REACT.js where I can fetch messages posted on Heroku and also post them and add likes to the posts. I have also created the backend for this app. Also I can also check how long back the post was made using MOMENT.js and added some validations depending on the length of the message both in the frontend and backend",
-      "image_url": "./lib/images/projects/Happy-thoughts.png",
+      "description": "A Twitter Clone using REACT.js where I can fetch messages posted on Heroku and also post them and add likes to the posts.",
+      "image_url": "./projects/Happy-thoughts.png",
       "live_url": "https://cuz-i-am-happy.netlify.app/",
       "techs": [
         "React",
@@ -34,7 +35,21 @@
     {
       "title": "Business Site",
       "description":"Business site landing page with a responsive hero video image and an accordion",
-      "image_url": "./lib/images/projects/business-site.png",
+      "image_url": "./projects/business-site.png",
+      "live_url": "https://business-adventure.netlify.app/",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Flexbox",
+        "DOM"
+      ],
+      "featured": false
+    },
+    {
+      "title": "Pizza Bot",
+      "description":"Business site landing page with a responsive hero video image and an accordion",
+      "image_url": "./projects/business-site.png",
       "live_url": "https://business-adventure.netlify.app/",
       "techs": [
         "HTML",
