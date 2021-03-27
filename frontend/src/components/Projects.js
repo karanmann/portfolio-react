@@ -5,9 +5,18 @@ import '../lib/styles/projects.scss'
 
 export const Projects = ({projectData}) => {
   return (
-    <div className='projects-container'>
-      <p className='projects-title'>PROJECTS</p>
-      {/* <MoreProjects /> */}
-    </div>
+    <>
+    {projectData.map(myproject => {
+      if(myproject.featured) {
+        return <div key={myproject.title}>{myproject.title}</div>
+      } else {
+        return <div key={myproject.title}>Other {myproject.title}</div>
+      }
+    })}
+    </>
+    // <div className='projects-container'>
+    //   <p className='projects-title'>PROJECTS</p>
+    //   {/* <MoreProjects /> */}
+    // </div>
   )  
 }
