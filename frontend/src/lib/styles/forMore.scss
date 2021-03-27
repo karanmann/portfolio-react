@@ -7,8 +7,8 @@
   padding: 20px 0;
   .formore-title {
     background-color: theme.$title-background;
-    padding: 10px 20px;
-    font-size: 30px;
+    padding: 10px 10px;
+    font-size: 20px;
   }
 
   .formore-icons {
@@ -25,6 +25,48 @@
       padding: 20px 0px;
   
 
+      a {
+        height: 60px;
+        width: 60px;
+        border: 2px solid theme.$title-background;
+        border-radius: 50%;
+      }
+
+      a:hover {
+        height: 70px;
+        width: 70px;
+        border: 2px solid theme.$image-background;
+        border-radius: 50%;
+        transition: .2s ease-out;
+      }
+
+      .formore-image-github,
+      .formore-image-stackoverflow,
+      .formore-image-linkedin {
+        height: 30px;
+        width: 30px;
+        margin: 15px;
+      }
+
+      .formore-text-linkedin,
+      .formore-text-stackoverflow,
+      .formore-text-github {
+        color: theme.$title-background;
+        font-size: 15px;
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+@media (min-width: 720px) {
+
+.formore-container {
+  
+  .formore-icons {
+    
+    .formore-icon-container {
+      
       a {
         height: 70px;
         width: 70px;
@@ -55,8 +97,7 @@
         font-size: 20px;
         font-weight: 800;
       }
-  
     }
   }
-  
+}
 }

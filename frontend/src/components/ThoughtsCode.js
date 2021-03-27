@@ -10,11 +10,9 @@ export const ThoughtsCode = () => {
     <div className='thougths-container'>
       <h2  className='thoughts-title' tabIndex="0">MY THOUGHTS ABOUT CODE</h2>
       <div className='thougths-content-container'>
-        <div className='thoughts-code-image-container'>
-          <a href={chefToProgrammerLink}>
-            <img className='thoughts-image' src={chefDroid} alt='Chef and Droid'/>
-          </a>
-        </div>
+        <a className='thoughts-code-image-container' href={chefToProgrammerLink}>
+          <img className='thoughts-image' src={chefDroid} alt='Chef and Droid'/>
+        </a>
         <div className='thoughts-code-text-container'>
           <p className='thoughts-code-text-title'>
             From Chef to Programmer 
