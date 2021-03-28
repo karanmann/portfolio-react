@@ -28,7 +28,7 @@ export const OtherProjects = ({otherProjects}) => {
           </OtherImageContainer>
           <OtherCardDetailsContainer>
             <p>
-              <DetailsTitle>{myProject.title}</DetailsTitle>
+              <DetailsTitle>{myProject.title} -</DetailsTitle>
               <DetailsDescription>{myProject.description}</DetailsDescription>
               <span>
                 <DetailsLink className='featured-card-description-title' href={myProject.live_url}>≥≥</DetailsLink>

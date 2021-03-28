@@ -11,14 +11,17 @@ const techs = [
   { tech:"React", highLight:true },
   { tech:"React Hooks", highLight:true },
   { tech:"Redux", highLight:true },
-  { tech:"Node.js", highLight:false },
+  { tech:"Node.js", highLight:true },
   { tech:"Mongo DB", highLight:false },
   { tech:"Web-Accessibility", highLight:false },
   { tech:"Figma", highLight:false },
-  { tech:"API:s", highLight:false },
+  { tech:"API:s", highLight:true },
   { tech:"Mob-Programming", highLight:false },
   { tech:"Pair-Programming", highLight:false },
   { tech:"Github", highLight:false },
+  { tech:"Mongoose", highLight:false },
+  { tech:"Express.js", highLight:false },
+  { tech:"Styled Components", highLight:true },
 ]
 
 export const Tech = () => {
