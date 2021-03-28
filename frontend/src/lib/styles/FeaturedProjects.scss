@@ -1,19 +1,19 @@
 @use 'theme';
 
 .featured-projects-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // justify-content: space-evenly;
   
   .featured-projects-card {
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-    height: 500px;
-    border: 2px solid black;
-    background-color: whitesmoke;
-    margin: 50px;
+    // display: flex;
+    // flex-direction: column;
+    // width: 320px;
+    // height: 500px;
+    // border: 2px solid black;
+    // background-color: whitesmoke;
+    // margin: 50px;
     .featured-card-image-container {
       .featured-card-image-hover {
         display: flex;
@@ -37,10 +37,10 @@
           background-color: transparent;
         }
 
-        .featured-card-image{
-          height: 200px;
-          width: 320px;
-        }
+        // .featured-card-image{
+        //   height: 200px;
+        //   width: 320px;
+        // }
 
         .featured-card-title {
           position: absolute;

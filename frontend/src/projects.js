@@ -49,7 +49,7 @@ export const Data =
     {
       "title": "Pizza Bot",
       "description":"Business site landing page with a responsive hero video image and an accordion",
-      "image_url": "./projects/business-site.png",
+      "image_url": "./projects/karsan-pizza.png",
       "live_url": "https://business-adventure.netlify.app/",
       "techs": [
         "HTML",

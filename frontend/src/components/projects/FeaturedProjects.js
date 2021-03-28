@@ -1,35 +1,51 @@
 import React from 'react';
 
-import '../../lib/styles/featuredProjects.scss'
+import { 
+  CardsContainer,
+  Card,
+  ImageContainer,
+  Image,
+  ImageOverlay,
+  ImageTitle,
+  CardDetailsContainer,
+  CardTextContainer,
+  DetailsTitle,
+  DetailsDescription,
+  DetailsLink,
+  CardTechContainer, 
+  CardTech} from '../../lib/styles/styled'
 
 export const FeaturedProjects = ({featuredProjects}) => {
   return (
-    <div className='featured-projects-container'>
+    <CardsContainer>
       {featuredProjects.map(myProject => {
         return (
-          <section className='featured-projects-card' key={myProject.title}>
-            <div className='featured-card-image-container'>
-              <a className='featured-card-image-hover' href={myProject.live_url}>
-                <div className='featured-card-image-overlay'>
-                  <p className='featured-card-title'>{myProject.title}</p>
-                </div>
-                <img className='featured-card-image' src={myProject.image_url} alt=""/>
+           <Card key={myProject.title}>
+            <ImageContainer>
+              <a href={myProject.live_url}>
+                <ImageOverlay>
+                  <ImageTitle>{myProject.title}</ImageTitle>
+                </ImageOverlay>
+                <Image src={myProject.image_url} alt=""/>
               </a>
-            </div>
-            <div className='featured-card-detail-container'>
-              <div className='featured-card-description'>
-                <p>{myProject.title} {myProject.description}</p>
-                <div className='featured-card-tech-wrapper'>
-                {myProject.techs.map(mytech => <p className='featured-card-tech'>{mytech}</p> 
+            </ImageContainer>
+            <CardDetailsContainer>
+              <p>
+                <DetailsTitle>{myProject.title} -</DetailsTitle>
+                <DetailsDescription>{myProject.description}</DetailsDescription>
+                <span>
+                  <DetailsLink href={myProject.live_url}>≥≥</DetailsLink>
+                </span> 
+              </p>
+              <CardTechContainer>
+                {myProject.techs.map(mytech => <CardTech>{mytech}</CardTech> 
                 )}
-                </div>
-              </div>  
-            </div>
-          </section>
+              </CardTechContainer>
+            </CardDetailsContainer>
+          </Card>
         )
       })
       }
-      
-    </div>
+    </CardsContainer>
   )
 }
