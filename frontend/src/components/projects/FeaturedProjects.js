@@ -8,7 +8,6 @@ import {
   ImageOverlay,
   ImageTitle,
   CardDetailsContainer,
-  CardTextContainer,
   DetailsTitle,
   DetailsDescription,
   DetailsLink,
