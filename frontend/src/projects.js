@@ -34,6 +34,17 @@ export const Data =
       "featured": true,
     },
     {
+      "title": "HAMBURGER MENU",
+      "description": "A hamburger menu created in pure HTML & CSS, and demoed live on Tjejer Kodar free code workshop on 11th of March 2021",
+      "image_url": "./projects/hamburger-tjejer-kodar.png",
+      "live_url": "https://edamam.netlify.app",
+      "techs": [
+        "HTML",
+        "CSS",
+      ],
+      "featured": false,
+    },
+    {
       "title": "Business Site",
       "description":"Business site landing page with a responsive hero video image and an accordion",
       "image_url": "./projects/business-site.png",
@@ -47,6 +58,7 @@ export const Data =
       ],
       "featured": false,
     },
+    
     {
       "title": "Pizza Bot",
       "description":"Business site landing page with a responsive hero video image and an accordion",
@@ -235,16 +247,6 @@ export const Data =
       ],
       "featured": true,
     },
-    {
-      "title": "HAMBURGER MENU",
-      "description": "A hamburger menu created in pure HTML & CSS, and demoed live on Tjejer Kodar free code workshop on 11th of March 2021",
-      "image_url": "./projects/hamburger-tjejer-kodar.png",
-      "live_url": "https://edamam.netlify.app",
-      "techs": [
-        "HTML",
-        "CSS",
-      ],
-      "featured": true,
-    },
+    
   ]
 }

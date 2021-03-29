@@ -1,6 +1,6 @@
 import React from  'react'
 
-import '../../lib/styles/projects.scss'
+import { ProjectContainer, Title } from '../../lib/styles/styled'
 import { OtherProjects } from './OtherProjects'
 import { FeaturedProjects } from './FeaturedProjects'
 
@@ -9,8 +9,8 @@ export const Projects = ({projectData}) => {
   const otherProjects = projectData.filter(myProjects => !myProjects.featured)
 
   return (
-    <div className='projects-container'>
-      <h3 className='projects-title'>PROJECTS</h3>
+    <ProjectContainer>
+      <Title>PROJECTS</Title>
       <div>
         <FeaturedProjects featuredProjects={featuredProjects}/>
       </div>
@@ -18,6 +18,6 @@ export const Projects = ({projectData}) => {
       <div>
         <OtherProjects otherProjects={otherProjects}/>
       </div>
-    </div>
+    </ProjectContainer>
   )  
 }

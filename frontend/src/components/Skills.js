@@ -1,6 +1,13 @@
 import React from 'react';
 
-import '../lib/styles/skills.scss'
+import { 
+  Title,
+  SkillContainer,
+  SkillContentContainer,
+  Skill,
+  SkillCodeTitle,
+  SkillCodeContent
+} from '../lib/styles/styled'
 
 const code = [
   "HTML5",
@@ -36,28 +43,28 @@ const upcomming = [
 
 export const Skills = () => {
   return (
-    <div className="skills-container">
-      <p className="skills-title">SKILLS</p>
-      <div className="content-container">
-        <div className="code">
-          <p className="code-title">CODE</p>
-          <div className="code-content">
+    <SkillContainer>
+      <Title>SKILLS</Title>
+      <SkillContentContainer>
+        <Skill>
+          <SkillCodeTitle>CODE</SkillCodeTitle>
+          <SkillCodeContent >
             {code.map(myCode => <p key={myCode}>{myCode}</p>)}
-          </div>
-        </div>
-        <div className='toolbox'>
-          <p className="toolbox-title">TOOLBOX</p>
-          <div className="toolbox-content">{toolbox.map(myTool => <p key={myTool}>{myTool}</p>)}</div>
-        </div>
-        <div className='others'>
-          <p className="others-title">OTHERS</p>
-          <div className="others-content">{others.map(myOthers => <p key={myOthers}>{myOthers}</p>)}</div>
-        </div>
-        <div className='upcomming'>
-          <p className="upcomming-title">UPCOMMING</p>
-          <div className="upcomming-content">{upcomming.map(myUpcomming => <p key={myUpcomming}>{myUpcomming}</p>)}</div>
-        </div>
-      </div>
-    </div>
+          </SkillCodeContent>
+        </Skill>
+        <Skill>
+          <SkillCodeTitle>TOOLBOX</SkillCodeTitle>
+          <SkillCodeContent>{toolbox.map(myTool => <p key={myTool}>{myTool}</p>)}</SkillCodeContent>
+        </Skill>
+        <Skill>
+          <SkillCodeTitle>OTHERS</SkillCodeTitle>
+          <SkillCodeContent>{others.map(myOthers => <p key={myOthers}>{myOthers}</p>)}</SkillCodeContent>
+        </Skill>
+        <Skill>
+          <SkillCodeTitle>UPCOMMING</SkillCodeTitle>
+          <SkillCodeContent>{upcomming.map(myUpcomming => <p key={myUpcomming}>{myUpcomming}</p>)}</SkillCodeContent>
+        </Skill>
+      </SkillContentContainer>
+    </SkillContainer>
   )
 }

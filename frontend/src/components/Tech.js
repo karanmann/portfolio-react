@@ -1,6 +1,11 @@
 import React from 'react';
 
-import '../lib/styles/tech.scss'
+import {
+  TechContainer,
+  AllTech,
+  MyTech,
+  Title
+  } from '../lib/styles/styled' 
 
 const techs = [
   { tech:"HTML", highLight:false },
@@ -26,21 +31,19 @@ const techs = [
 
 export const Tech = () => {
   return (
-    <div className='tech-container' >
-      <p className='tech-title'>TECH</p>
-      <div className='all-tech-container'>
-        <div className='all-tech'>
+    <TechContainer>
+      <Title>TECH</Title>
+        <AllTech>
             {techs.map((mytech, index) =>{
               const conditionalStyle = mytech.highLight ? {color:'tomato', fontWeight: '800'} : {color:'black'}
               return (
-              <p className='tech' style={conditionalStyle} key={mytech.tech}>
+              <MyTech style={conditionalStyle} key={mytech.tech}>
                 {mytech.tech}
-              </p> 
+              </MyTech> 
             )
             })}
-        </div>
-      </div>
-    </div>
+        </AllTech>
+    </TechContainer>
   )
 }
 
