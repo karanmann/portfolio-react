@@ -19,7 +19,11 @@ export const OtherProjects = ({otherProjects}) => {
         return (
         <OtherCard key={myProject.title}>
           <OtherImageContainer>
-            <a href={myProject.live_url}>
+            <a 
+              href={myProject.live_url}
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
               <ImageOverlay>
                 <ImageTitle>{myProject.title}</ImageTitle>
               </ImageOverlay>
@@ -31,7 +35,13 @@ export const OtherProjects = ({otherProjects}) => {
               <DetailsTitle>{myProject.title} -</DetailsTitle>
               <DetailsDescription>{myProject.description}</DetailsDescription>
               <span>
-                <DetailsLink className='featured-card-description-title' href={myProject.live_url}>≥≥</DetailsLink>
+                <DetailsLink 
+                  href={myProject.live_url}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  ≥≥
+                </DetailsLink>
               </span> 
             </p>
             <CardTechContainer>

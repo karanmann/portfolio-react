@@ -46,7 +46,7 @@ export const Data =
     },
     {
       "title": "Business Site",
-      "description":"Business site landing page with a responsive hero video image and an accordion",
+      "description":"Business site landing page with a responsive hero video image, form with validation and an accordion",
       "image_url": "./projects/business-site.png",
       "live_url": "https://business-adventure.netlify.app/",
       "techs": [
@@ -72,7 +72,7 @@ export const Data =
         "DOM",
         "Pair-Programming"
       ],
-      "featured": false,
+      "featured": true,
     },
     {
       "title": "Movie App",
@@ -91,21 +91,20 @@ export const Data =
     },
     {
       "title": "Music App",
-      "description": "A Spotify like music database app using Local Spotify JSON",
+      "description": "A Spotify like music app landing page using a Local Spotify JSON. Where on hover you can see the like, play and more buttons",
       "image_url": "./projects/music-app.png",
       "live_url": "https://spotify-music-clone.netlify.app",
       "techs": [
         "React",
         "CSS",
-        "Redux",
         "Agile Methodology",
         "Mob-Programming"
       ],
-      "featured": true,
+      "featured": false,
     },
     {
       "title": "Todo App",
-      "description": "A Spotify like music database app using Local Spotify JSON",
+      "description": "A classic Project of a todo app where you can add, edit, delete and set the status complete for a task",
       "image_url": "./projects/todoapp.png",
       "live_url": "https://todo-it-today.netlify.app",
       "techs": [
@@ -115,7 +114,7 @@ export const Data =
         "Agile Methodology",
         "Mob-Programming"
       ],
-      "featured": true,
+      "featured": false,
     },
     {
       "title": "Authentication",
@@ -133,7 +132,7 @@ export const Data =
         "Agile Methodology",
         "Mob-Programming"
       ],
-      "featured": true,
+      "featured": false,
     },
     {
       "title": "Game Zone",
@@ -178,7 +177,7 @@ export const Data =
     },
     {
       "title": "Aussie Burger",
-      "description": "A burger review site whichfilters as per the star rating and price",
+      "description": "A burger review site using the Zomato API which filters the restaurants as per the star rating and price",
       "image_url": "./projects/burgersite.png",
       "live_url": "https://zomato-review-clone.netlify.app",
       "techs": [
@@ -189,7 +188,7 @@ export const Data =
         "DOM",
         "API:s"
       ],
-      "featured": true,
+      "featured": false,
     },
     {
       "title": "Chore-Door",
