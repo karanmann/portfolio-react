@@ -38,7 +38,7 @@ export const Tech = () => {
               const conditionalStyle = mytech.highLight ? {color:'tomato', fontWeight: '800'} : {color:'black'}
               return (
               <MyTech style={conditionalStyle} key={mytech.tech}>
-                {mytech.tech}{index === techs.length - 1 ? '.' : index ===techs.length - 2 ? ' &' : ',' } 
+                {index === techs.length - 1 ? '&  ' : ''} {mytech.tech}{index === techs.length ? '.' : ','} 
               </MyTech> 
             )
             })}

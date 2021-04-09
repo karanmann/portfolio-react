@@ -38,7 +38,7 @@ export const Tech = () => {
               const conditionalStyle = mytech.highLight ? {color:'tomato', fontWeight: '800'} : {color:'black'}
               return (
               <MyTech style={conditionalStyle} key={mytech.tech}>
-                {mytech.tech}{index === techs.length - 1 ? '.' : index ===techs.length - 2 ? ' &' : ',' } 
+                {index === mytech.tech.length - 1 ? ',' : '.'} {mytech.tech}
               </MyTech> 
             )
             })}
@@ -46,3 +46,8 @@ export const Tech = () => {
     </TechContainer>
   )
 }
+
+// while using styled components we can also send the style as a prop and do the conditional rendering in the styles itself.
+
+// {index > Object.keys(mytech).length - 1 ? ',' : '.'} 
+// Working on getting a period in the end rather than a comma.
