@@ -40,15 +40,24 @@ export const Header = () => {
         </LeftContainer>
         <RightContainer>
           <IconContainer>
-            <IconLinkContainer href={linkedInLink} tabIndex='0'>
+            <IconLinkContainer 
+              href={linkedInLink} 
+              tabIndex='0'
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <IconImageContainer
                 src={linkedInIcon}
                 alt='Icon to LinkedIN' 
                 aria-label='Linkedin profile' 
-                rel='noreferrer' 
+                rel="noreferrer"
               />
             </IconLinkContainer>
-            <IconLinkContainer href={githubLink} tabIndex='0'>
+            <IconLinkContainer 
+              href={githubLink} 
+                tabIndex='0'
+                target="_blank" 
+                rel="noopener noreferrer">
               <IconImageContainer 
                 src={githubIcon}
                 alt='Icon to Github'
@@ -56,7 +65,12 @@ export const Header = () => {
                 rel='noreferrer'
               />
             </IconLinkContainer>
-            <IconLinkContainer href={stackOverflowLink} tabIndex='0'>
+            <IconLinkContainer 
+              href={stackOverflowLink} 
+              tabIndex='0'
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <IconImageContainer
                 src={stackoverflowIcon}
                 alt='Icon to Stackoverflow'

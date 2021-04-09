@@ -21,7 +21,11 @@ export const FeaturedProjects = ({featuredProjects}) => {
         return (
            <Card key={myProject.title}>
             <ImageContainer>
-              <a href={myProject.live_url}>
+              <a 
+                href={myProject.live_url}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
                 <ImageOverlay>
                   <ImageTitle>{myProject.title}</ImageTitle>
                 </ImageOverlay>
@@ -33,7 +37,12 @@ export const FeaturedProjects = ({featuredProjects}) => {
                 <DetailsTitle>{myProject.title} -</DetailsTitle>
                 <DetailsDescription>{myProject.description}</DetailsDescription>
                 <span>
-                  <DetailsLink href={myProject.live_url}>≥≥</DetailsLink>
+                  <DetailsLink 
+                    href={myProject.live_url}
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >≥≥
+                  </DetailsLink>
                 </span> 
               </p>
               <CardTechContainer>
