@@ -1,24 +1,23 @@
-import React from 'react'
-
-import { 
+import {
   HeroContainer,
-  LeftContainer,
   HeroTextContainer,
   HeroTextH1,
   HeroTextH1Span,
   HeroTextH2,
   HeroTextH3,
-  RightContainer,
   IconContainer,
-  IconLinkContainer,
   IconImageContainer,
-  ProfilePic, 
+  IconLinkContainer,
+  LeftContainer,
+  ProfilePic,
+  RightContainer,
 } from '../lib/styles/styled'
 
-import linkedInIcon from '../lib/images/icons/linkedin.svg'
+import React from 'react'
 import githubIcon from '../lib/images/icons/github.svg'
-import stackoverflowIcon from '../lib/images/icons/stackoverflow.svg'
+import linkedInIcon from '../lib/images/icons/linkedin.svg'
 import profilePic from '../lib/images/profile.png'
+import stackoverflowIcon from '../lib/images/icons/stackoverflow.svg'
 
 const linkedInLink = 'https://www.linkedin.com/in/karanmann84/'
 const githubLink = 'https://github.com/karanmann'
@@ -35,7 +34,6 @@ export const Header = () => {
               <HeroTextH1Span>KARAN MANN</HeroTextH1Span> 
             </HeroTextH1>
             <HeroTextH2>frontend developer</HeroTextH2>
-            <HeroTextH3>+ chef</HeroTextH3>
           </HeroTextContainer>
         </LeftContainer>
         <RightContainer>
