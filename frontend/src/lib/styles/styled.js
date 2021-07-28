@@ -1,5 +1,5 @@
-import styled from 'styled-components/macro'
 import greenBanner from '../images/GreenBanner.png'
+import styled from 'styled-components/macro'
 // GLOBAL
 
 export const Title = styled.h3`
@@ -108,7 +108,7 @@ export const IconContainer = styled.div `
   justify-content: space-evenly;
   flex-direction: row;
   position: absolute;
-  transform: translate(0%,-480%);
+  transform: translate(0%,-430%);
 
   @media (min-width: 720px){
     display:flex;
@@ -116,7 +116,7 @@ export const IconContainer = styled.div `
     justify-content: space-evenly;
     flex-direction: row;
     position: absolute;
-    transform: translate(0%,-530%);
+    transform: translate(0%,-430%);
   }
 
   @media (min-width: 1280px){
