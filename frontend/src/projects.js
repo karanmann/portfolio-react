@@ -106,11 +106,12 @@ export const Data =
       "title": "Todo App",
       "description": "A classic Project of a todo app where you can add, edit, delete and set the status complete for a task",
       "image_url": "./projects/todoapp.png",
-      "live_url": "https://todo-it-today.netlify.app",
+      "live_url": "https://todo-in-moment.netlify.app",
       "techs": [
         "React",
         "Styled Components",
-        "Redux",
+        "Redux Toolkit",
+        "Material UI",
         "Agile Methodology",
         "Mob-Programming"
       ],

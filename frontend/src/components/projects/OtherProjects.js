@@ -1,16 +1,17 @@
-import { 
-  OtherCardsContainer,
-  OtherCard,
-  OtherImageContainer,
+import {
+  CardTech,
+  CardTechContainer,
+  DetailsDescription,
+  DetailsLink,
+  DetailsTitle,
   Image,
   ImageOverlay,
   ImageTitle,
+  OtherCard,
   OtherCardDetailsContainer,
-  DetailsTitle,
-  DetailsDescription,
-  DetailsLink,
-  CardTechContainer, 
-  CardTech} from '../../lib/styles/styled'
+  OtherCardsContainer,
+  OtherImageContainer
+} from '../../lib/styles/styled'
 
 export const OtherProjects = ({otherProjects}) => {
   return (
