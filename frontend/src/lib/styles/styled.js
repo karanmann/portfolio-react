@@ -50,7 +50,6 @@ export const HeroTextH1 = styled.h1`
   font-size: 20px;
   letter-spacing: 5px;
   font-weight: 200;
-
   @media (min-width: 1280px) {
     font-size: 35px;
     letter-spacing: 5px;
@@ -134,11 +133,13 @@ export const IconLinkContainer = styled.a `
     border: 2px solid tomato
   }
 `
+
 export const IconImageContainer = styled.img `
   height: 20px;
   width:20px;
   padding: 20px;
 `
+
 export const ProfilePic = styled.img `
   height: 200px;
   width: 200px;
