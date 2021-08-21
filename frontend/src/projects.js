@@ -37,7 +37,7 @@ export const Data =
       "title": "HAMBURGER MENU",
       "description": "A hamburger menu created in pure HTML & CSS, and demoed live on Tjejer Kodar free code workshop on 11th of March 2021",
       "image_url": "./projects/hamburger-tjejer-kodar.png",
-      "live_url": "https://edamam.netlify.app",
+      "live_url": "https://tjejer-kodar-hamburger-menu.netlify.app",
       "techs": [
         "HTML",
         "CSS",
