@@ -4,7 +4,6 @@ import {
   HeroTextH1,
   HeroTextH1Span,
   HeroTextH2,
-  HeroTextH3,
   IconContainer,
   IconImageContainer,
   IconLinkContainer,
