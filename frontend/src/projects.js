@@ -2,6 +2,21 @@ export const Data =
 {
   "projects": [
     {
+      "title": "FOODEX",
+      "description": "A food site to focus on HTML, SASS-CSS, JS and Animations",
+      "image_url": "./projects/FOODEX.png",
+      "live_url": "https://project-foodex.netlify.app/",
+      "techs": [
+        "HTML",
+        "CSS",
+        "SASS",
+        "JavaScript",
+        "CSS-Animation",
+        "API",
+      ],
+      "featured": true,
+    },
+    {
       "title": "Pollic",
       "description": "Systemic consensing is to find a solution that fits all participants",
       "image_url": "./projects/pollic.png",
@@ -245,7 +260,7 @@ export const Data =
         "Javascript",
         "API:s",
       ],
-      "featured": true,
+      "featured": false,
     },
     
   ]

@@ -12,12 +12,13 @@ import {
 const code = [
   "HTML5",
   "CSS3",
+  "SCSS",
   "JavaScript ES6",
   "React",
   "React Hooks",
+  "Redux",
   "Node.js",
-  "Mongo DB",
-  "Github",
+  "Mongo DB"
 ]
 
 const toolbox =[
@@ -26,10 +27,13 @@ const toolbox =[
   "Figma",
   "StackOverflow",
   "Slack",
+  "Github",
 ]
 
 const others= [
   "Agile Methodology",
+  "Scrum",
+  "Kanban",
   "Pair-programming",
   "Mob-programming",
   "Web Accessibility",
@@ -37,8 +41,8 @@ const others= [
 ]
 
 const upcomming = [
-  "Redux",
-  "SASS",
+  "Animations",
+  "Game Development"
 ]
 
 export const Skills = () => {

@@ -339,7 +339,7 @@ export const CardTech = styled.p `
 export const OtherCardsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
 `
 
@@ -347,6 +347,7 @@ export const OtherCard = styled.section `
   display: flex;
   flex-direction: row;
   height: auto;
+  width: 80%;
   background-color: whitesmoke;
   margin: 20px;
   box-shadow: 10px 5px 5px grey;

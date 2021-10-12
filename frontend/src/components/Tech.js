@@ -13,6 +13,7 @@ const techs = [
   { tech:"Flexbox", highLight:false },
   { tech:"JavaScript", highLight:true },
   { tech:"Responsive Design", highLight:false },
+  { tech:"SCSS", highLight:true },
   { tech:"React", highLight:true },
   { tech:"React Hooks", highLight:true },
   { tech:"Redux", highLight:true },
