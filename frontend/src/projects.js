@@ -17,6 +17,20 @@ export const Data =
       "featured": true,
     },
     {
+      "title": "Github Tracker",
+      "description": "All my github Repos in one place",
+      "image_url": "./projects/githubtracker.png",
+      "live_url": "https://gitkaranmann.netlify.app/",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "CSS-Animation",
+        "API",
+      ],
+      "featured": true,
+    },
+    {
       "title": "Pollic",
       "description": "Systemic consensing is to find a solution that fits all participants",
       "image_url": "./projects/pollic.png",
