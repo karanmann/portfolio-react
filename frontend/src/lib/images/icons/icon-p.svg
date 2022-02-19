@@ -1,4 +1,1 @@
-<svg width="55" height="11" viewBox="0 0 55 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-<line y1="6" x2="46" y2="6" stroke="#EA9010" stroke-width="2"/>
-<ellipse cx="50" cy="5.5" rx="5" ry="5.5" fill="#EA9010"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="11" fill="none" viewBox="0 0 55 11"><line x2="46" y1="6" y2="6" stroke="#EA9010" stroke-width="2"/><ellipse cx="50" cy="5.5" fill="#EA9010" rx="5" ry="5.5"/></svg>
